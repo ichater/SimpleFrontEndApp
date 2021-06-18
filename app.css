@@ -1,0 +1,7 @@
+.heading-main{
+    color: red;
+}
+
+.heading-main:hover{
+    cursor:pointer;
+}
