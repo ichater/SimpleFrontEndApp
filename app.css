@@ -1,7 +1,64 @@
-.heading-main{
-    color: red;
+body{
+    background-color:rgb(179, 240, 255);
 }
 
+.heading-main{
+    margin:auto;
+    margin-bottom: 1em;
+}
 .heading-main:hover{
     cursor:pointer;
+}
+
+.body-main{
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    box-sizing: border-box;
+    width: max-content;
+    display: flex;   
+    flex-direction: column;
+}
+
+.increment-wrapper{
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.increment-wrapper button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.increment-wrapper button:hover{
+    cursor: pointer;
+}
+
+.increment{
+    background-color: #4CAF50;
+}
+
+.decrement{
+    background-color: #f44336;
+}
+
+.number-to-change{   
+    font-size: 3em;
+}
+
+.green-h2{
+    color:rgb(0, 153, 0);
+}
+
+.red-h2{
+color: rgb(255, 71, 26)
+}
+
+.h2-wrapper{
+    cursor: pointer;
 }
